@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="QtRun">
+    <qresource prefix="/Picture">
+        <file alias="Run_icon">data/Picture/Icon/Run_icon.png</file>
     </qresource>
 </RCC>

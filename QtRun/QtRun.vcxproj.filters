@@ -63,8 +63,8 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_qtrun.h">
-      <Filter>Generated Files</Filter>
+    <ClInclude Include="ui_QtRun.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

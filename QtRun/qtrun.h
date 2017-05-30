@@ -1,8 +1,10 @@
 #ifndef QTRUN_H
 #define QTRUN_H
 
+#include "ui_QtRun.h"
+
 #include <QtWidgets/QWidget>
-#include "ui_qtrun.h"
+
 
 class QtRun : public QWidget
 {
@@ -11,6 +13,14 @@ class QtRun : public QWidget
 public:
 	QtRun(QWidget *parent = 0);
 	~QtRun();
+
+private:
+	void keyPressEvent(QKeyEvent *e);
+
+	void init_connect();
+	void on_beginButton_clicked();
+	void on_cancelButton_clicked();
+	void on_browseButton_clicked();
 
 private:
 	Ui::QtRunClass ui;

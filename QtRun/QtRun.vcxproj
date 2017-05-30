@@ -116,7 +116,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_qtrun.h" />
+    <ClInclude Include="ui_QtRun.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="qtrun.qrc">
