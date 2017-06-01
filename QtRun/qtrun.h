@@ -15,7 +15,8 @@ public:
 	~QtRun();
 
 private:
-	void keyPressEvent(QKeyEvent *e);
+	void keyPressEvent(QKeyEvent *e)override;
+	void paintEvent(QPaintEvent *e)override;
 
 	void init_connect();
 	void on_beginButton_clicked();

@@ -37,6 +37,13 @@ void QtRun::keyPressEvent(QKeyEvent *keyEvent)
 	return QWidget::keyPressEvent(keyEvent);
 }
 
+void QtRun::paintEvent(QPaintEvent * e)
+{
+	ui.painter = new QPainter(this);
+	ui.painter->fillRect(0, 0, 395, 130, Qt::white);
+
+}
+
 void QtRun::init_connect()
 {
 	QObject::connect(ui.beginButton, &QPushButton::clicked, this, &QtRun::on_beginButton_clicked);

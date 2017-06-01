@@ -45,11 +45,7 @@ public:
 		QtRunClass->setFixedSize(395, 200);
 		QtRunClass->setWindowIcon(QIcon(":/Picture/Run_icon"));
 
-		/*painter = new QPainter(&backgrundPixmap);
-		painter->setBrush(Qt::black);
-		painter->fillRect(0, 0, 50, 100, Qt::black);
-		backgrundLabel = new QLabel(QtRunClass);
-		backgrundLabel->setPixmap(backgrundPixmap);*/
+		
 
 		run_pictureLabel = new QLabel(QtRunClass);
 		run_pictureLabel->setPixmap(QPixmap(":/Picture/Run_icon"));
